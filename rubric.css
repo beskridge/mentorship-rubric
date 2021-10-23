@@ -1,0 +1,123 @@
+/*
+ * Author: Brent Eskridge
+ */
+
+.rubric-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.rubric-container{
+    max-width:  90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rubric-table {
+    display:  table;
+}
+
+.rubric-criteria-row {
+    display: table-row;
+}
+
+.rubric-row-alternate:nth-child(even) {
+    background: lightblue;
+}
+
+.rubric-criteria-name {
+    display:  table-cell;
+    width: 20%;
+    padding: 10px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.rubric-criteria-description-show {
+    background-image:  url('info-icon.png');
+    background-color:  transparent;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-left: 5px;
+}
+
+.rubric-criteria-rating-container {
+    display:  table-cell;
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.rubric-criteria-rating-levels {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.rubric-criteria-rating-level {
+    background-color: lightgray;
+    flex-grow: 1;
+    /*border: 1px solid black;*/
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.rubric-criteria-rating-level.selected {
+    background-color: lightgreen;
+}
+
+.rubric-criteria-description {
+    display:  none;
+    padding: 5px 5px 5px 10px;
+}
+
+.rubric-criteria-total {
+    display:  table-cell;
+    text-align: right;
+    padding: 5px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.rubric-total-row {
+    display:  table-row;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.rubric-total-label {
+    display:  table-cell;
+    text-align: right;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.rubric-total-value {
+    display:  table-cell;
+    min-width: 3em;
+    text-align: right;
+    padding: 5px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.rubric-reset {
+    background-color: lightgray;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
+}
