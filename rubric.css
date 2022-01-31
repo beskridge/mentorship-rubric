@@ -38,6 +38,15 @@
     margin: 5px;
 }
 
+.rubric-criteria-description-item {
+    padding-bottom:  8px;
+}
+
+.rubric-criteria-description-list {
+    margin:  0px;
+    padding-top:  8px;
+}
+
 .rubric-criteria-description-show {
     background-image:  url('info-icon.png');
     background-color:  transparent;
@@ -52,7 +61,7 @@
     display:  table-cell;
     width: 100%;
     vertical-align: middle;
-    margin-top: 5px;
+    padding-top: 5px;
 }
 
 .rubric-criteria-rating-levels {
@@ -74,11 +83,32 @@
 
 .rubric-criteria-rating-level.selected {
     background-color: lightgreen;
+    font-weight:  bold;
+}
+
+.rubric-criteria-rating-level.rating-level-rank-4.selected {
+    background-color: lawngreen;
+}
+
+.rubric-criteria-rating-level.rating-level-rank-3.selected {
+    background-color: lightgreen;
+}
+
+.rubric-criteria-rating-level.rating-level-rank-2.selected {
+    background-color: lightyellow;
+}
+
+.rubric-criteria-rating-level.rating-level-rank-1.selected {
+    background-color: lightpink;
+}
+
+.rubric-criteria-rating-level.rating-level-rank-0.selected {
+    background-color: lightcoral;
 }
 
 .rubric-criteria-description {
     display:  none;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 .rubric-criteria-total {
